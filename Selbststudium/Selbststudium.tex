@@ -226,7 +226,20 @@
 		%----------------------------------------------------------------------------------------
 		
 		\begin{homeworkProblem}
+		Wir habe die Sprache $L_1 = \{ab^ka(ab)^ma| k,m \in \mathbb{N}\}$ und m{\"o}chten zeigen, dass $L_1 = L(G_1)$ gilt.
 		
+		\begin{enumerate}[(i)]
+			\item Zuerst zeigen wir $L_1 \subseteq L(G_1)$\\
+			Sei $x\in L_1$. Dann ist $x=w=ab^ka(ab)^ma$ f{\"u}r irgendwelche $k,m  \in \mathbb{N}$. Um zu zeigen, dass $x \in L(G_1)$, konstruieren wir eine Ableitung von $x \in G_1$.
+			
+			\begin{center}
+			S $\Rightarrow$ aXaYa\\
+			$\Rightarrow_G^k ab^kXaYa$\\
+			$\Rightarrow ab^kaYa$\\
+			$\Rightarrow_G^m ab^ka(ab)^mYa$\\
+			
+			\end{center}
+		\end{enumerate}
 		
 		\end{homeworkProblem}
 	\end{document}
